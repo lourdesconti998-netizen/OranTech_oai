@@ -1,6 +1,5 @@
 # Ignore testbed subdirectories
 /configs/
-/flexric/
 /logs/
 /swig/
 influxdb_auth_token.json
