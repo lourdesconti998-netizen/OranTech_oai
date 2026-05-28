@@ -177,3 +177,34 @@ En este caso, al menos una de las métricas evaluadas presenta un valor degradad
 Cuando no hay tráfico uplink activo, la xApp puede clasificar el enlace como `MALO` debido al bajo throughput. Este caso no necesariamente representa una degradación real del enlace, sino una situación en la que no hay tráfico suficiente para evaluar correctamente la transmisión.
 
 ![Salida general de la xApp modificada](generico.jpg)
+
+## Instalación
+
+Para instalar el entorno, primero se debe clonar este repositorio:
+
+```bash
+git clone https://github.com/lourdesconti998-netizen/implementacion2.git
+```
+
+Luego, ingresar al directorio del entorno basado en OpenAirInterface y FlexRIC:
+
+```bash
+cd implementacion2/O-RAN-Testbed-Automation/OpenAirInterface_Testbed
+```
+
+Ejecutar la instalación completa:
+
+```bash
+./full_install.sh
+```
+
+Este script descarga, compila e instala los componentes necesarios del entorno, incluyendo Open5GS, OpenAirInterface y FlexRIC. El proceso puede demorar varios minutos dependiendo de los recursos de la máquina.
+
+Una vez finalizada la instalación, los componentes principales quedan disponibles en los siguientes directorios:
+
+```text
+5G_Core_Network/
+Next_Generation_Node_B/
+User_Equipment/
+RAN_Intelligent_Controllers/Flexible-RIC/
+```
