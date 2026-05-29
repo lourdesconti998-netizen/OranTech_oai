@@ -209,4 +209,4 @@ User_Equipment/
 RAN_Intelligent_Controllers/Flexible-RIC/
 ```
 Nota 1: La base de esta implementación fue extraida del la tesis de Juan Navarro Gutierrez "O-RAN: Puerta de entrada para nuevos investigadores"
-Nota2: Se utilizaron herramientas de inteligencia artificial como apoyo en procesos puntuales de instalación y depuración.
+Nota 2: Se utilizaron herramientas de inteligencia artificial como apoyo en procesos puntuales de instalación y depuración.
