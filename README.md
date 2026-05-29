@@ -183,7 +183,7 @@ Cuando no hay tráfico uplink activo, la xApp puede clasificar el enlace como `M
 Para instalar el entorno, primero se debe clonar este repositorio:
 
 ```bash
-git clone https://github.com/lourdesconti998-netizen/implementacion2.git
+git clone https://github.com/lourdesconti998-netizen/OranTech_oai
 ```
 
 Luego, ingresar al directorio del entorno basado en OpenAirInterface y FlexRIC:
